@@ -224,6 +224,7 @@ a {
     justify-content: center;
     gap: 24px;
     padding-left: 0;
+    margin: 0;
 }
 
 .team-item {
@@ -302,11 +303,11 @@ a {
     row-gap: 48px;
     padding-top: 72px;
     padding-left: 0;
+    margin: 0;
 }
 
 .portf-item {
 width: calc((100% - 48px) / 3);
-
 }
 
 .portf-img {
