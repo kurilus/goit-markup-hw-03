@@ -238,7 +238,7 @@ a {
     max-width: 264px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
         background: #fff;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .team-info-container {
@@ -305,10 +305,6 @@ a {
 }
 
 .portf-item {
-display: flex;
-flex-wrap: wrap;
-column-gap: 24px;
-row-gap: 48px;
 width: calc((100% - 48px) / 3);
 
 }
