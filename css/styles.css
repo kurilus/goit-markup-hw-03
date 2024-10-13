@@ -223,6 +223,7 @@ a {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    padding-left: 0;
 }
 
 .team-item {
@@ -300,6 +301,7 @@ a {
     column-gap: 24px;
     row-gap: 48px;
     padding-top: 72px;
+    padding-left: 0;
 }
 
 .portf-item {
